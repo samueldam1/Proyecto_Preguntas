@@ -3,7 +3,8 @@ public class Main {
     public static void main(String[] args) {
         
         Metodos obj = new Metodos();
-               
+         
+        System.out.println(obj.numero_random(10));
         
         //INICIO
         
