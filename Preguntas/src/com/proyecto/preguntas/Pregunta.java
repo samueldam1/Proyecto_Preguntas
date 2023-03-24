@@ -19,6 +19,30 @@ public class Pregunta {
         this.opcionD = opcionD;
     }
 
+    public String getPregunta() {
+        return pregunta;
+    }
+
+    public String getRespuesta() {
+        return respuesta;
+    }
+
+    public String getOpcionA() {
+        return opcionA;
+    }
+
+    public String getOpcionB() {
+        return opcionB;
+    }
+
+    public String getOpcionC() {
+        return opcionC;
+    }
+
+    public String getOpcionD() {
+        return opcionD;
+    }  
+
     @Override
     public String toString() {
         

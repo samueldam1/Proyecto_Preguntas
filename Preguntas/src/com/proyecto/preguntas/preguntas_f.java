@@ -18,7 +18,7 @@ public class preguntas_f {
         Pregunta []preguntas_f = new Pregunta [i];
         
         // Fichero del que sacaremos las preguntas
-        File fichero = new File("/home/dam1/NetBeansProjects/PROYECTO_PREGUNTAS/Preguntas_faciles");
+        File fichero = new File("C:\\Users\\Samu\\Documents\\NetBeansProjects\\Proyecto_Pregunta\\Proyecto_Preguntas\\Preguntas_faciles");
         
         // Instanciar scanner
         Scanner scnr = null;
@@ -57,7 +57,7 @@ public class preguntas_f {
             
         } catch (FileNotFoundException e) {
             
-            System.out.println("El fichero no se ha encontrado");
+            System.out.println("El fichero " + fichero + " no se ha encontrado");
             
         }
 

@@ -4,7 +4,11 @@ public class Main {
         
         Metodos obj = new Metodos();
          
-        System.out.println(obj.numero_random(10));
+        //System.out.println(obj.numero_random(10));
+        
+        obj.principal();
+        
+        //obj.test();
         
         //INICIO
         
